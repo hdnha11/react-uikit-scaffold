@@ -7,6 +7,7 @@
   "browser": "build/index.js",
   "private": true,
   "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook",
     "build": "rollup -c",
     "lint": "eslint .",
     "prepare": "yarn build"
@@ -20,7 +21,11 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-info": "^4.1.4",
+    "@storybook/react": "^4.1.4",
     "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-styled-components": "^1.10.0",
     "eslint": "^5.11.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
